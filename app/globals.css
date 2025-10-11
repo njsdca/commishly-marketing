@@ -1,15 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --teal: #1EB5A9;
-  --yellow: #FFD600;
-  --charcoal: #2E2D2F;
+@theme {
+  --color-teal: #1EB5A9;
+  --color-yellow: #FFD95E;
+  --color-charcoal: #2E2D2F;
+  --color-cream: #FFF9EE;
+  --color-mint: #B9F6CA;
+  --color-lavender: #C5A3FF;
+  --color-coral: #FF7A64;
 }
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  color: var(--charcoal);
+  color: #2E2D2F;
   background-color: #ffffff;
 }
