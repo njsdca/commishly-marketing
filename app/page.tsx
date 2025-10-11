@@ -71,7 +71,7 @@ export default function Home() {
               Everything You Need to Manage Commissions
             </h2>
             <p className="text-lg text-charcoal/70">
-              From transaction import to broker payments, we've got you covered.
+              From transaction import to broker payments, we&apos;ve got you covered.
             </p>
           </div>
 
@@ -158,7 +158,7 @@ export default function Home() {
             Ready to Simplify Your Commissions?
           </h2>
           <p className="mb-8 text-lg opacity-90">
-            Join food & beverage brands who've ditched their spreadsheets.
+            Join food & beverage brands who&apos;ve ditched their spreadsheets.
           </p>
           <a
             href="https://app.getcommishly.com/sign-up"
