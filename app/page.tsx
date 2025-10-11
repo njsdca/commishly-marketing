@@ -49,13 +49,12 @@ export default function Home() {
       <main className="max-w-6xl mx-auto px-4 py-10 space-y-10">
         <section className="text-center py-12">
           <h2 className="text-5xl font-extrabold mb-4 text-charcoal">
-            Commission Management,
+            Commission Management for
             <br />
-            <span className="text-teal">Simplified</span>
+            <span className="text-teal">CPG Brands & Their Broker Partners</span>
           </h2>
           <p className="text-xl max-w-3xl mx-auto mb-8 text-charcoal opacity-80">
-            Stop wrestling with spreadsheets. Automate your broker commission tracking,
-            calculation, and payments. Built specifically for food & beverage brands.
+            Stop wrestling with spreadsheets. Commishly centralizes broker assignments, automates commission calculations, and generates clean statements—purpose-built for CPG brands and the broker networks that represent them.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
@@ -72,7 +71,7 @@ export default function Home() {
             </a>
           </div>
           <p className="mt-6 text-sm text-charcoal/50">
-            See how Commishly can transform your commission management
+            See how Commishly streamlines commissions for CPG brands and broker partners
           </p>
         </section>
 
@@ -95,15 +94,14 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-charcoal">Easy Import</h3>
+            <h3 className="text-2xl font-bold mb-3 text-charcoal">Configure</h3>
             <p className="text-gray-600 mb-6">
-              Upload transactions from CSV, NetSuite, or other data sources. Smart column
-              mapping detects your data automatically.
+              Set the rules once, scale everywhere. Define broker relationships, map customers, and choose the commission structure that fits each partnership—retainers, % of net revenue, and more. Control trade rates, commission percentages, and direct vs. indirect logic without touching a spreadsheet.
             </p>
             <div className="flex flex-wrap gap-2 text-xs">
-              <span className="px-2 py-1 rounded bg-mint text-charcoal">CSV</span>
-              <span className="px-2 py-1 rounded bg-mint text-charcoal">NetSuite</span>
-              <span className="px-2 py-1 rounded bg-mint text-charcoal">Auto-map</span>
+              <span className="px-2 py-1 rounded bg-mint text-charcoal">Broker & customer assignments</span>
+              <span className="px-2 py-1 rounded bg-mint text-charcoal">Commission structures & rates</span>
+              <span className="px-2 py-1 rounded bg-mint text-charcoal">Trade rate settings</span>
             </div>
           </div>
 
@@ -124,15 +122,14 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-charcoal">Auto-Calculate</h3>
+            <h3 className="text-2xl font-bold mb-3 text-charcoal">Load & Calculate</h3>
             <p className="text-gray-600 mb-6">
-              Define commission structures once. We handle all the math: trade rates,
-              commission percentages, retainers, and more.
+              Import transactions and let Commishly do the math. Upload CSVs (and add integrations later), auto-map columns, validate in seconds, and apply your rules consistently. We calculate gross → net → commission with guardrails for unassigned customers, missing prices, and data quality flags.
             </p>
             <div className="flex flex-wrap gap-2 text-xs">
-              <span className="px-2 py-1 rounded bg-lavender/30 text-charcoal">Trade Rates</span>
-              <span className="px-2 py-1 rounded bg-lavender/30 text-charcoal">Retainers</span>
-              <span className="px-2 py-1 rounded bg-lavender/30 text-charcoal">Overrides</span>
+              <span className="px-2 py-1 rounded bg-lavender/30 text-charcoal">CSV upload with smart mapping</span>
+              <span className="px-2 py-1 rounded bg-lavender/30 text-charcoal">Validation & error surfacing</span>
+              <span className="px-2 py-1 rounded bg-lavender/30 text-charcoal">Automatic calculations</span>
             </div>
           </div>
 
@@ -153,15 +150,14 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold mb-3 text-charcoal">Clear Statements</h3>
+            <h3 className="text-2xl font-bold mb-3 text-charcoal">Generate Statements</h3>
             <p className="text-gray-600 mb-6">
-              Generate professional statements for your brokers. Export, review, and send
-              with confidence.
+              Turn results into statements your brokers actually understand. Review totals, drill into line items, and finalize with confidence. Export for finance, share for approval, and keep an audit trail—all in one place.
             </p>
             <div className="flex flex-wrap gap-2 text-xs">
-              <span className="px-2 py-1 rounded bg-coral/30 text-charcoal">PDF Export</span>
-              <span className="px-2 py-1 rounded bg-coral/30 text-charcoal">Audit Trail</span>
-              <span className="px-2 py-1 rounded bg-coral/30 text-charcoal">Approvals</span>
+              <span className="px-2 py-1 rounded bg-coral/30 text-charcoal">Period filters & drilldowns</span>
+              <span className="px-2 py-1 rounded bg-coral/30 text-charcoal">Broker-ready statements</span>
+              <span className="px-2 py-1 rounded bg-coral/30 text-charcoal">Export for payment ops</span>
             </div>
           </div>
         </section>
@@ -174,7 +170,7 @@ export default function Home() {
                 Book a Demo
               </h2>
               <p className="text-center text-charcoal/70">
-                See how Commishly can transform your commission management
+                See how Commishly streamlines commissions for CPG brands and broker partners
               </p>
             </div>
             <DemoForm />

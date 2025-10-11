@@ -3,20 +3,21 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://getcommishly.com"),
-  title: "Commishly - Commission Management for Food & Beverage Brands",
-  description: "Automate your broker commission tracking and payments. Built for food and beverage brands working with sales brokers.",
+  title: "Commishly — Commission Management for CPG Brands & Broker Partners",
+  description: "Commishly automates broker commissions for CPG brands: configure rules, load transactions, calculate accurately, and generate clear statements—without spreadsheets.",
   keywords: [
     "broker commissions",
     "CPG",
-    "food and beverage",
+    "consumer packaged goods",
     "sales commissions",
     "commission tracking",
     "commission management",
+    "broker partners",
   ],
   authors: [{ name: "Commishly" }],
   openGraph: {
-    title: "Commishly - Commission Management for Food & Beverage Brands",
-    description: "Automate your broker commission tracking and payments. Built for food and beverage brands.",
+    title: "Commishly — Commission Management for CPG Brands & Broker Partners",
+    description: "Commishly automates broker commissions for CPG brands: configure rules, load transactions, calculate accurately, and generate clear statements—without spreadsheets.",
     url: "/",
     type: "website",
     locale: "en_US",
