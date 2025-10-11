@@ -1,0 +1,4 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Monochrome C opening horizontally to the right -->
+  <path d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0zm8 12a8 8 0 1 1 0 8h-4a4 4 0 1 0 0-8h4z" fill="#000"/>
+</svg>
