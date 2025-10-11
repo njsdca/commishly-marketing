@@ -1,3 +1,5 @@
+import DemoForm from './components/DemoForm';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-cream font-sans">
@@ -34,10 +36,10 @@ export default function Home() {
               Login
             </a>
             <a
-              href="https://app.getcommishly.com/sign-up"
+              href="#demo"
               className="rounded-lg bg-white px-4 py-2 text-sm font-medium text-teal hover:bg-white/90 transition-colors"
             >
-              Get Started
+              Book a Demo
             </a>
           </nav>
         </div>
@@ -57,10 +59,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://app.getcommishly.com/sign-up"
+              href="#demo"
               className="w-full sm:w-auto rounded-lg bg-teal px-8 py-4 text-base font-semibold text-white hover:bg-teal/90 transition-colors"
             >
-              Start Free Trial →
+              Book a Demo →
             </a>
             <a
               href="#features"
@@ -70,7 +72,7 @@ export default function Home() {
             </a>
           </div>
           <p className="mt-6 text-sm text-charcoal/50">
-            No credit card required • 14-day free trial • Cancel anytime
+            See how Commishly can transform your commission management
           </p>
         </section>
 
@@ -164,23 +166,18 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CTA Section - Styled like app analytics cards */}
-        <section>
+        {/* Demo Request Form */}
+        <section id="demo">
           <div className="rounded-2xl border border-mint shadow-sm overflow-hidden bg-white">
-            <div className="p-12 text-center bg-gradient-to-br from-teal to-teal/90">
-              <h2 className="text-4xl font-bold text-white mb-4">
-                Ready to Simplify Your Commissions?
+            <div className="p-8 border-b border-mint bg-gradient-to-br from-teal/5 to-white">
+              <h2 className="text-3xl font-bold text-charcoal mb-2 text-center">
+                Book a Demo
               </h2>
-              <p className="text-lg text-white/90 mb-8">
-                Join food & beverage brands who&apos;ve ditched their spreadsheets.
+              <p className="text-center text-charcoal/70">
+                See how Commishly can transform your commission management
               </p>
-              <a
-                href="https://app.getcommishly.com/sign-up"
-                className="inline-block rounded-lg bg-white px-8 py-4 text-base font-semibold text-teal hover:bg-cream transition-colors"
-              >
-                Start Your Free Trial →
-              </a>
             </div>
+            <DemoForm />
           </div>
         </section>
       </main>
